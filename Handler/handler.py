@@ -150,6 +150,7 @@ class MainHandler(tornado.web.RequestHandler):
 
     def prepare(self):
         client_cert = self.request.get_ssl_certificate(True)
+        print extract_DN(client_cert)
         if not valid_cert(client_cert, self.validDNs):
             print "This certificate is not authorized! Bad DN!"
             self.finish()

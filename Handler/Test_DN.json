@@ -2,6 +2,7 @@
 {"countryName": "PL", "organizationalUnitName": "Unit", "organizationName": "Some_organization", "localityName": "Torun", "stateOrProvinceName": "MAZOWIECKIE"}, 
 {"countryName": "PL", "organizationalUnitName": "Unit", "organizationName": "Some_organization", "localityName": "Krakow", "stateOrProvinceName": "MAZOWIECKIE"}, 
 {"countryName": "PL", "organizationalUnitName": "Unit", "organizationName": "Some_organization", "localityName": "WARSAW", "stateOrProvinceName": "MAZOWIECKIE"}, 
-{"countryName": "PL", "organizationName": "LocalFAke", "localityName": "KR", "emailAddress": "user@fake.pl", "commonName": "userCert", "stateOrProvinceName": "User"}
+{"countryName": "PL", "organizationName": "LocalFAke", "localityName": "KR", "emailAddress": "user@fake.pl", "commonName": "userCert", "stateOrProvinceName": "User"},
+{"countryName": "AU", "commonName": "not in json", "organizationalUnitName": "Auth", "organizationName": "test inc"}
 ]
 

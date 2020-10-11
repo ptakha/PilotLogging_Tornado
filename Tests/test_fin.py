@@ -7,8 +7,8 @@ import stomp
 import time
 
 certDir = '../testCerts/'
-client_cert = os.path.join(certDir+'user.crt')
-client_key = os.path.join(certDir+'user.key')
+client_cert = os.path.join(certDir+'proxy.crt')
+client_key = os.path.join(certDir+'proxy.key')
 CAcert = os.path.join(certDir+'CAcert.pem')
 
 invalid_cert = os.path.join(certDir+'invalid_cert.pem')
